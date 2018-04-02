@@ -1,0 +1,84 @@
+@import 'reset.css';
+
+:root {
+   --black: #000000;
+    --gold: #d77d00;
+   --green: #4a5f00;
+  --yellow: #fdb537;
+   --white: #ffffff;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+/* typography */
+
+body {
+  font-size: 62.5%;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* headings */
+
+h1 {
+  color: ;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+/* container */
+
+.container {
+  margin: 5rem auto 0;
+  max-width: 545px;
+}
+
+/* form styles */
+
+.form {
+  padding: 20px;
+  background-color: var(--green);
+  border-bottom: 10px solid var(--yellow);
+}
+
+/* inputs */
+
+.form__input {
+  border: none;
+  display: block;
+  font-size: 1.5rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.form__input-submit {
+  background-color: var(--gold);
+  color: var(--white);
+}
+
+/* button */
+
+.form__input-submit:hover {
+  cursor: pointer;
+}
+
+.form__input-submit:disabled {
+  background-color: var(--yellow); 
+  cursor: default;
+}
+
+/* end form styles */
+
+.result {
+  font-size: 4.5rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
