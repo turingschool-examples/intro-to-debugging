@@ -71,16 +71,16 @@ Now that we're all setup, we can insert some debugger statements!
 
 **Pro Tip:** Make sure that your console drawer is open even when your on the sources tab:
 
-[console drawer](images/console-drawer.png)
+![console drawer](images/console-drawer.png)
 
 ### Your turn
 
-We do have an actual :bug: in this code :flushed:
+We do have an actual bug in this code.
 
 If we have the number 1 in our first input and the number 2 in our second input, we would expect the result on the page to be 3 when we hit the submit button.
 However, we can see that's not the case - the result that we're actually seeing is 12.
 
-Use `debugger` to fix the :bug: so that the correct result shows up on the page.
+Use `debugger` to fix the bug so that the correct result shows up on the page.
 
 ### Turn and talk
 
@@ -92,7 +92,7 @@ Leverage `debugger` to add functionality to clear the input fields on submit.
 
 #### Another your turn
 
-Leverage `debugger` to add functionality (with JavaScript) to ensure that only numbers can be submitted from each input field. An error should display if either input field is not a number on submit.
+Leverage `debugger` to add functionality (with JavaScript, not HTML) to ensure that only numbers can be submitted from each input field. An error should display if either input field is not a number on submit.
 
 ### Dig Deeper
 
