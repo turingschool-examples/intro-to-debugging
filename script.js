@@ -7,8 +7,8 @@ submitButton.addEventListener('click', displayResult);
 
 function displayResult(event) {
   event.preventDefault();
-  var num1 = input1.value;
-  var num2 = input2.value;
+  var num1 = parseInt(input1.value);
+  var num2 = parseInt(input2.value);
   var result = num1 + num2;
   resultArticle.innerText = result;
 }

@@ -26,7 +26,11 @@ tags: bug, debugging, debugger, chrome, dev tools
 The term "bug" was used in an account by computer pioneer [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), who publicized the cause of a malfunction in an early electromechanical computer. A typical version of the story is:
 
 ```
-In 1946, when Hopper was released from active duty, she joined the Harvard Faculty at the Computation Laboratory where she continued her work on the Mark II and Mark III. Operators traced an error in the Mark II to a moth trapped in a relay, coining the term bug. This bug was carefully removed and taped to the log book. Stemming from the first bug, today we call errors or glitches in a program a bug.
+In 1946, when Hopper was released from active duty, she joined the Harvard Faculty 
+at the Computation Laboratory where she continued her work on the Mark II and Mark 
+III. Operators traced an error in the Mark II to a moth trapped in a relay, coining 
+the term bug. This bug was carefully removed and taped to the log book. 
+Stemming from the first bug, today we call errors or glitches in a program a bug.
 ```
 
 ### The Debugging Process
@@ -35,7 +39,7 @@ In 1946, when Hopper was released from active duty, she joined the Harvard Facul
 2. Attempt to isolate the problem.
   * Check for error messages. Make sure that your console is open!!!
   * If there is an error message: 
-    1. Read the error message. Do I know what it means? If not, [google](https://www.google.com/) `always`
+    1. Read the error message. Do I know what it means? If not, [google it!](https://www.google.com/)(you can always copy and paste the error directly into google)
     2. Go to the line specified in the message (your error message has isolated the issue for you)
   * If there is not:
     * Attempt to answer the following questions:
@@ -57,8 +61,8 @@ The second is `interactive debugging` which is a debugging method where code is 
 In this repo, there are bugs on the following branches:
 1. `syntax-bug`
 2. `undefined-bug`
-3. `scope-bug`
 4. `conditional-bug`
+3. `scope-bug`
 5. `counter-bug`
 
 We will go over the first two together and then y'all will have a chance to tackle the others with a partner
