@@ -1,98 +1,67 @@
 ---
-title: Intro to debugger
+title: Intro to debugging
 length: 60
-tags: debugger, chrome, dev tools
+tags: bug, debugging, debugger, chrome, dev tools
 ---
 
-# `debugger;`
+# Intro to debugging
 
 ### Learning Goals
 
+- Understand what a bug is
+- Understand the debugging process
 - Understand how to use debugger statements in chrome
 
 ### Vocabulary
 
-- debugger
+- `bug` An error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.  
+- `error message` Will usually say: what line the error is coming from, *hopefully* what the error is, and provide a `stack trace` (what is going on in the interpreter.
+- `print debugging` (or tracing) is the act of watching (live or recorded) trace statements, or print statements, that indicate the flow of execution of a process.
+- `interactive debugging` A debugging method where code is stopped in runtime, allowing you to interact with the codebase at that point in time.
+- `console.log` A tool used for print debugging
+- `debugger` A tool used for interactive debugging
 
-### Getting Started
+### The History of the 'bug'
 
-Debugging JavaScript is hard. Thus far, you have likely been sprinkling `console.log` statements all 
-throughout your code in order to check data types, the values of variables, to confirm a conditional is evaluating as expected, etc.
-There is a more efficient way to do all of these things. That way is to use a `debugger` statement.
+The term "bug" was used in an account by computer pioneer [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), who publicized the cause of a malfunction in an early electromechanical computer. A typical version of the story is:
 
-**debugger** will set breakpoints in our JavaScript. A breakpoint lets us pause our code in the middle of its execution, and examine all values at that moment in time. 
-
-### Let's see it in action 
-
-I've cloned down this repo, opened the `index.html` file in my browser, and opened this entire repo in my text editor.
-Inside of the `script.js` file, I'm going to insert a `debugger` statement after the global variable declarations and before the event listener.
-It should look like this: 
-
-```javascript
-// variables here
-
-debugger;
-
-// event listener here
+```
+In 1946, when Hopper was released from active duty, she joined the Harvard Faculty at the Computation Laboratory where she continued her work on the Mark II and Mark III. Operators traced an error in the Mark II to a moth trapped in a relay, coining the term bug. This bug was carefully removed and taped to the log book. Stemming from the first bug, today we call errors or glitches in a program a bug.
 ```
 
-Next I'll save the file, go to the browser, and refresh the page.
+### The Debugging Process
 
-#### What's happening?
+1. Attempt to reproduce the problem. Does it persist on page reload?
+2. Attempt to isolate the problem.
+  * Check for error messages. Make sure that your console is open!!!
+  * If there is an error message: 
+    1. Read the error message. Do I know what it means? If not, [google](https://www.google.com/) `always`
+    2. Go to the line specified in the message (your error message has isolated the issue for you)
+  * If there is not:
+    * Attempt to answer the following questions:
+    1. What behavior should I be seeing that I am not? 
+    2. Where does that live in my code?
+3. Use a debugger tool to examine program states (values of variables, plus the call stack) and track down the origin of the problem(s).
+  * In simple cases, tracing is just a few `console.log` statements, which output the values of variables at certain points of program execution.
 
-In `console.log()` statements you need to explicitly specify each value that you want to inspect. 
+### Debugging Methods
 
-With debugger breakpoints, DevTools shows you the values of all variables at that moment in time when we hover over files in the sources tab. 
-Sometimes there are variables affecting your code that you're not even aware of.
+There are two primary methods that y'all will use in your time here at turing and beyond.
 
-We can also type variable names into our dev console drawer to see what those variables evaluate to at that moment in time.
+The first is print `print debugging` (or tracing), which is the act of watching (live or recorded) trace statements, or print statements, that indicate the flow of execution of a process. We've been doing this consistently using `console.log` statements.
 
-In order to exit out of our `debugger` session we can click the ![resume script execution](images/resume-script-execution.png) button to resume script execution.
+The second is `interactive debugging` which is a debugging method where code is stopped in runtime, allowing you to interact with the codebase at that point in time. JavaScript has a built in tool we can use for interactive debugging called debugger. We will not go into too much detail on this tool but there is an excellent tutorial on how to use it [here](https://developers.google.com/web/tools/chrome-devtools/javascript/)
 
-### Your turn
+### Practice
 
-#### Setup
+In this repo, there are bugs on the following branches:
+1. `syntax-bug`
+2. `undefined-bug`
+3. `scope-bug`
+4. `conditional-bug`
+5. `counter-bug`
 
-1. Clone down this repo `git clone https://github.com/turingschool-examples/debugger-intro`
-
-2. Change into this repo `cd debugger-intro`
-
-3. Open the index.html file in the browser `open index.html`
-
-4. Open your dev tools - **always** `cmd + option + i`
-
-5. Open the entire repo in your text editor `sublime .`
-
-Now that we're all setup, we can insert some debugger statements!
-
-1. What happens if we insert a `debugger;` into the displayResult function of the `script.js` file?
-2. Go to the browser and refresh the page.
-3. What properties and methods are there on the `event` object being passed in?
-
-**Pro Tip:** Make sure that your console drawer is open even when your on the sources tab:
-
-![console drawer](images/console-drawer.png)
-
-### Your turn
-
-We do have an actual bug in this code.
-
-If we have the number 1 in our first input and the number 2 in our second input, we would expect the result on the page to be 3 when we hit the submit button.
-However, we can see that's not the case - the result that we're actually seeing is 12.
-
-Use `debugger` to fix the bug so that the correct result shows up on the page.
-
-### Turn and talk
-
-With a partner, come up with an analogy or analogies for both `console.log` and `debugger`
-
-### Your turn
-
-Leverage `debugger` to add functionality to clear the input fields on submit.
-
-#### Another your turn
-
-Leverage `debugger` to add functionality (with JavaScript, not HTML) to ensure that only numbers can be submitted from each input field. An error should display if either input field is not a number on submit.
+We will go over the first two together and then y'all will have a chance to tackle the others with a partner
 
 ### Dig Deeper
 
