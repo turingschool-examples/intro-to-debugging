@@ -59,11 +59,12 @@ The second is `interactive debugging` which is a debugging method where code is 
 ### Practice
 
 In this repo, there are bugs on the following branches:
-1. `syntax-bug`
-2. `undefined-bug`
-4. `conditional-bug`
-3. `scope-bug`
-5. `counter-bug`
+* **Note** For all of these branches, the bug free behavior is that the app can correctly add two numbers together.
+1. `bug1`
+2. `bug2`
+4. `bug3` Additional bug free behavior: The 'Add em up!' button should be disabled if either input is empty
+3. `bug4` Additional bug free behavior: Both inputs should be cleared on submit
+5. `bug5` Additional bug free behavior: Two floats can be added together correctly
 
 We will go over the first two together and then y'all will have a chance to tackle the others with a partner
 
