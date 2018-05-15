@@ -63,8 +63,9 @@ In this repo, there are bugs on the following branches:
 1. `bug1`
 2. `bug2`
 4. `bug3` Additional bug free behavior: The 'Add em up!' button should be disabled if either input is empty
-3. `bug4` Additional bug free behavior: Both inputs should be cleared on submit
-5. `bug5` Additional bug free behavior: Two floats can be added together correctly
+5. `bug4` 
+3. `bug5` Additional bug free behavior: Both inputs should be cleared on submit
+5. `bug6` Additional bug free behavior: Two floats can be added together correctly
 
 We will go over the first two together and then y'all will have a chance to tackle the others with a partner
 
