@@ -10,6 +10,6 @@ function displayResult(event) {
   var num1 = parseInt(input1.value);
   var num2 = parseInt(input2.value);
   var result = num1 + num2;
-  resultArticle.innerText = result;
+  resultArticle.value = result;
 }
 
