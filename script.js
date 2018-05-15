@@ -11,5 +11,10 @@ function displayResult(event) {
   var num2 = parseInt(input2.value);
   var result = num1 + num2;
   resultArticle.innerText = result;
+  clearInputs();
 }
 
+function clearInputs() {
+  input1.innerText = '';
+  input2.innerText = '';
+}
