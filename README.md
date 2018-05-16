@@ -10,12 +10,12 @@ tags: bug, debugging, debugger, chrome, dev tools
 
 - Understand what a bug is
 - Understand the debugging process
-- Understand how to use debugger statements in chrome
+- Understand print and interactive debugging
 
 ### Vocabulary
 
 - `bug` An error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.  
-- `error message` Will usually say: what line the error is coming from, *hopefully* what the error is, and provide a `stack trace` (what is going on in the interpreter.
+- `error message` Will usually say: what line the error is coming from, *hopefully* what the error is, and provide a `stack trace` (what is going on in the interpreter).
 - `print debugging` (or tracing) is the act of watching (live or recorded) trace statements, or print statements, that indicate the flow of execution of a process.
 - `interactive debugging` A debugging method where code is stopped in runtime, allowing you to interact with the codebase at that point in time.
 - `console.log` A tool used for print debugging
@@ -60,14 +60,15 @@ The second is `interactive debugging` which is a debugging method where code is 
 
 In this repo, there are bugs on the following branches:
 * **Note** For all of these branches, the bug free behavior is that the app can correctly add two numbers together.
+
+Watch as your instructor debugs the first 3.
 1. `bug1`
 2. `bug2`
 3. `bug3` Additional bug free behavior: The 'Add em up!' button should be disabled if either input is empty
+Now it's your turn:
 4. `bug4` 
 5. `bug5` Additional bug free behavior: Both inputs should be cleared on submit
 6. `bug6` Additional bug free behavior: Two floats can be added together correctly
-
-We will go over the first two together and then y'all will have a chance to tackle the others with a partner
 
 ### Dig Deeper
 
