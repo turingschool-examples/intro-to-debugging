@@ -15,6 +15,6 @@ function displayResult(event) {
 }
 
 function clearInputs() {
-  input1.innerText = '';
-  input2.innerText = '';
+  input1.innerText('');
+  input2.innerText('');
 }
