@@ -61,14 +61,15 @@ The second is `interactive debugging` which is a debugging method where code is 
 In this repo, there are bugs on the following branches:
 * **Note** For all of these branches, the bug free behavior is that the app can correctly add two numbers together.
 
-Watch as your instructor debugs the first 3.
+### Instructor demonstration
 1. `bug1`
 2. `bug2`
 3. `bug3` Additional bug free behavior: The 'Add em up!' button should be disabled if either input is empty
-Now it's your turn:
-4. `bug4` 
-5. `bug5` Additional bug free behavior: Both inputs should be cleared on submit
-6. `bug6` Additional bug free behavior: Two floats can be added together correctly
+
+### Your turn
+1. `bug4` 
+2. `bug5` Additional bug free behavior: Both inputs should be cleared on submit
+3. `bug6` Additional bug free behavior: Two floats can be added together correctly
 
 ### Dig Deeper
 
