@@ -52,7 +52,7 @@ Stemming from the first bug, today we call errors or glitches in a program a bug
 
 There are two primary methods that y'all will use in your time here at turing and beyond.
 
-The first is print `print debugging` (or tracing), which is the act of watching (live or recorded) trace statements, or print statements, that indicate the flow of execution of a process. We've been doing this consistently using `console.log` statements.
+The first is `print debugging` (or tracing), which is the act of watching (live or recorded) trace statements, or print statements, that indicate the flow of execution of a process. We've been doing this consistently using `console.log` statements.
 
 The second is `interactive debugging` which is a debugging method where code is stopped in runtime, allowing you to interact with the codebase at that point in time. JavaScript has a built in tool we can use for interactive debugging called debugger. We will not go into too much detail on this tool but there is an excellent tutorial on how to use it [here](https://developers.google.com/web/tools/chrome-devtools/javascript/)
 
