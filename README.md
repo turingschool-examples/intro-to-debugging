@@ -63,6 +63,7 @@ In this repo, there are bugs on the following branches:
 
 ### Instructor demonstration
 * `bug1`
+  * Should give an idea of places to insert debugger statements as well as how to effectively leverage them
 
 ### Your turn
 1. `bug2`
