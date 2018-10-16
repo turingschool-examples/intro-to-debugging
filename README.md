@@ -56,6 +56,8 @@ The first is `print debugging` (or tracing), which is the act of watching (live 
 
 The second is `interactive debugging` which is a debugging method where code is stopped in runtime, allowing you to interact with the codebase at that point in time. JavaScript has a built in tool we can use for interactive debugging called debugger. We will not go into too much detail on this tool but there is an excellent tutorial on how to use it [here](https://developers.google.com/web/tools/chrome-devtools/javascript/)
 
+**Note** These tools can and **should** be used proactively to test data as you develop to confirm that variables, properties, etc. are what you think they are.
+
 ### Practice
 
 In this repo, there are bugs on the following branches:
@@ -75,4 +77,3 @@ In this repo, there are bugs on the following branches:
 ### Dig Deeper
 
 * [Chrome Dev Tools Debugging Tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/)
-
