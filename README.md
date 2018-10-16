@@ -62,12 +62,12 @@ In this repo, there are bugs on the following branches:
 * **Note** For all of these branches, the bug free behavior is that the app can correctly add two numbers together.
 
 ### Instructor demonstration
-1. `bug1`
-2. `bug2`
-3. `bug3` Additional bug free behavior: The 'Add em up!' button should be disabled if either input is empty
+* `bug1`
 
 ### Your turn
-1. `bug4` 
+1. `bug2`
+2. `bug3` Additional bug free behavior: The 'Add em up!' button should be disabled if either input is empty
+3. `bug4` 
 2. `bug5` Additional bug free behavior: Both inputs should be cleared on submit
 3. `bug6` Additional bug free behavior: Two floats can be added together correctly
 
