@@ -1,10 +1,13 @@
 ---
 title: Intro to debugging
-length: 60
+length: 90
 tags: bug, debugging, debugger, chrome, dev tools
 ---
 
 # Intro to debugging
+
+### Prework
+Read <a href="https://codeburst.io/learn-how-to-debug-javascript-with-chrome-devtools-9514c58479db" target="_blank">this article</a> on debugging with the Chrome Dev Tools before the lesson.
 
 ### Learning Goals
 
