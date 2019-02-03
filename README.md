@@ -36,6 +36,8 @@ the term bug. This bug was carefully removed and taped to the log book.
 Stemming from the first bug, today we call errors or glitches in a program a bug.
 ```
 
+<img src="https://archive.computerhistory.org/resources/still-image/Hopper-Grace/hopper-grace.finds_bug.102640477.lg.jpg" alt="Grace Hopper's Original Bug">
+
 ### The Debugging Process
 
 1. Attempt to reproduce the problem. Does it persist on page reload?
