@@ -1,7 +1,7 @@
 var count = 0;
-var counter = document.querySelector(".counter");
+var counter = document.querySelector("counter");
 var incrementBtn = document.querySelector(".btn");
-var surpriseArticle = document.querySelector("#surprise-zone");
+var surpriseArticle = document.querySelector("#surprisezone");
 
 incrementBtn.addEventListener("click", countUp);
 
