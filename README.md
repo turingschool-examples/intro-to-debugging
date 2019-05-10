@@ -1,6 +1,6 @@
 ---
 title: Intro to debugging
-length: 60
+length: 90
 tags: bug, debugging, debugger, chrome, dev tools
 ---
 
