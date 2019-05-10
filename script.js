@@ -16,7 +16,7 @@ function displayResult(event) {
 }
 
 function toggleDisabled(event) {
-  if (input1.val !== '' && input2.val !== '') {
+  if (input1.val !== '' || input2.val !== '') {
     submitButton.disabled = false;
   } else {
     submitButton.disabled = true;
