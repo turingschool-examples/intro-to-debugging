@@ -68,6 +68,14 @@ The second is `interactive debugging` which is a debugging method where code is 
 In this repo, there are bugs on the following branches:
 * **Note** For all of these branches, the bug free behavior is that the app can correctly add two numbers together.
 
+### Set Up
+
+* Clone down this repo (you don't have to fork, as you will not be pushing back up
+* Run `git fetch` to bring down the remote branches
+* To see the remote branches, you will need to use the `remote` flag: `git branch -r`
+* To checkout any of these branches, run the normal `git checkout bug1` command (in this case, fill in the appropriate bug name
+* You can commit work, but do not push it back up to `origin`
+
 ### Instructor demonstration
 * `bug1`
   * Should give an idea of places to insert debugger statements as well as how to effectively leverage them
