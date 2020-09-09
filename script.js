@@ -5,7 +5,7 @@ var resultArticle = document.querySelector('.js-result');
 
 submitButton.addEventListener('click', function (event) {
   event.preventDefault();
-  var num1 = parseInt(input1.value);
+  var num1 = parseInt(input1);
   var num2 = parseInt(input2.value);
   var result = num1 + num2;
   resultArticle.innerText = result;
